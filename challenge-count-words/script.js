@@ -3,7 +3,7 @@ function calculateWords(chapterOfABook) {
 
   // Write your code in here
   let bookArray = chapterOfABook
-    .replace(/[.,\/#!$%\^&\*;:{}=\-`_~()]/g, "")
+    .replace(/[.\/#!$%\^&\*;:{}=\-`_~()]/g, "")
     .split(" ");
     
 
